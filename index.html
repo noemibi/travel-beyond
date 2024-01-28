@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Beyond</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <header class="logo wrapper wrapper-max">
+        <div class="header__title">
+          <div>Travel</div>
+          <div>Beyond</div>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <section class="hero wrapper wrapper-max">
+        <div>
+          <h1 class="hero-title">Your space adventure awaits, travel to <span class="accent">Mars</span></h1>
+          <p>
+            Discover the pinnacle of luxury and exploration with Travel Beyond. Be part of our exclusive community of
+            pioneers and make your journey to Mars an unforgettable chapter in your personal legacy.
+          </p>
+        </div>
+        <a href="#forms" class="primary-button">Book your journey</a>
+        <img class="scroll" src="./assets/img/scroll-down.svg" alt="Scroll down" />
+      </section>
+
+      <section class="section-benefits wrapper wrapper-max">
+        <h2 id="section-benefits__title">It's not a trip, it's an <span class="accent">experience</span></h2>
+        <div>
+          <div>
+            <h3>Unparalleled Views</h3>
+            <p>
+              From the orbit of Mars, you'll have <b>unparalleled panoramic views</b> of the Red Planet and the vast
+              interstellar space, a perspective reserved for the privileged few.
+            </p>
+          </div>
+          <img src="./assets/img/mars_landscape.png" alt="Mars landscape" />
+        </div>
+        <div>
+          <div>
+            <h3>Space Exclusivity</h3>
+            <p>
+              We offer an exclusive luxury space experience for a <b>limited number of travelers</b>. You will explore
+              space in privacy and comfort.
+            </p>
+          </div>
+          <img src="./assets/img/mars_astronaut.png" alt="Astronaut in mars" />
+        </div>
+        <div>
+          <div>
+            <h3>Transformative Experience</h3>
+            <p>
+              Our space journeys provide an experience beyond luxury. You will undergo a profund
+              <b>personal transformation</b> and forge a <b>deep connection</b> with the cosmos.
+            </p>
+          </div>
+          <img id="transformative-img" src="./assets/img/astronaut.png" alt="Astronaut viewing mars" />
+        </div>
+        <a href="#forms" class="primary-button">Book your journey</a>
+      </section>
+
+      <section class="section-testimonials wrapper wrapper-max">
+        <h2>Our <span class="accent">testimonials</span></h2>
+        <div class="slider-container">
+          <div class="slider">
+            <a name="slide_1" class="testimonial-slide">
+              <p>
+                “As a science and space exploration enthusiast, I have closely followed the development of Travel Beyond
+                and their dedication to providing luxurious space experiences. I am excited about the prospect of one
+                day joining the community of space travelers and experiencing an adventure that, I am confident, will be
+                unforgettable.”
+              </p>
+              <div class="testimonial-slide__media">
+                <img src="./assets/img/elon_musk_desktop.png" alt="Elon Musk" />
+                <p class="testimonial-name"><b>Elon Musk</b></p>
+              </div>
+            </a>
+            <a name="slide_2" class="testimonial-slide">
+              <p>
+                "I am intrigued by the possibility of exploring the cosmos with Travel Beyond. Their commitment to
+                excellence and the vision of taking the human experience beyond earthly limits are inspiring. I look
+                forward to the day when I join this journey and can experience the wonders of Mars with Travel Beyond."
+              </p>
+              <div class="testimonial-slide__media">
+                <img src="./assets/img/bill_gates_desktop.png" alt="Bill Gates" />
+                <p class="testimonial-name"><b>Bill Gates</b></p>
+              </div>
+            </a>
+            <a name="slide_3" class="testimonial-slide">
+              <p>
+                "The prospect of venturing into space with Travel Beyond has captured my imagination. The possibility of
+                exploring Mars is an aspect that I eagerly anticipate. I look forward to the day when I can be part of
+                this exciting interplanetary journey."
+              </p>
+              <div class="testimonial-slide__media">
+                <img src="./assets/img/jeff_bezos_desktop.png" alt="Jeff Bezos" />
+                <p class="testimonial-name"><b>Jeff Bezos</b></p>
+              </div>
+            </a>
+          </div>
+          <ul class="markers">
+            <li><a href="#slide_1"></a></li>
+            <li><a href="#slide_2"></a></li>
+            <li><a href="#slide_3"></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="forms" class="section-form">
+        <div class="wrapper wrapper-max">
+          <h2>Your space adventure starts <span class="accent">here</span></h2>
+          <p>
+            Fill out the form and our team will contact you to personalize your reservation to Mars. Prepare for a
+            unique experience!
+          </p>
+          <form>
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="First Name" autocomplete="off" required />
+              <label class="form-label" for="name">First Name</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="last_name" name="last_name" placeholder="Last Name" autocomplete="off" required />
+              <label class="form-label" for="last_name">Last Name</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="email" name="email" placeholder="Email Adress" autocomplete="off" required />
+              <label class="form-label" for="email">Email Adress</label>
+            </div>
+            <div class="form-group" id="last-input">
+              <input type="number" id="phone" name="phone" placeholder="Phone Number" autocomplete="off" required />
+              <label class="form-label" for="phone">Phone Number</label>
+            </div>
+            <button class="primary-button">Submit</button>
+          </form>
+        </div>
+        <img class="form-img" src="./assets/img/form-bg-image.png" alt="Space" />
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content wrapper wrapper-max">
+        <ul class="rrss">
+          <li>
+            <a><img src="./assets/img/facebook.svg" alt="Facebook" /></a>
+          </li>
+          <li>
+            <a><img src="./assets/img/x.svg" alt="X" /></a>
+          </li>
+          <li>
+            <a><img src="./assets/img/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a><img src="./assets/img/youtube.svg" alt="Youtube" /></a>
+          </li>
+        </ul>
+        <div class="brand">
+          <p id="copyright">©2023 Travel Beyond</p>
+          <div class="legal">
+            <a>Terms of Use</a>
+            <a>Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
